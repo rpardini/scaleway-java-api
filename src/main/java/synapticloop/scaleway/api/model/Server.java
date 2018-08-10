@@ -39,7 +39,7 @@ public class Server extends ServerBase {
 	@JsonProperty("ipv6")               private IPv6 ipv6;
 	@JsonProperty("image")              private Image image;
 	@JsonProperty("hostname")           private String hostname;
-	@JsonProperty("boot_type")          private String boot_type = "bootscript";
+	@JsonProperty("boot_type")          private String boot_type = "local";
 
 	public String getHostname() { return hostname; }
 
